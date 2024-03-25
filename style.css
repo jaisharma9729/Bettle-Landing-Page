@@ -702,7 +702,7 @@ button.accordion-button.collapsed {
     font-size: 13px;
 }
 button.accordion-button {
-    padding: 25px;
+    padding: 15px;
     border-radius: 25px !important;
 }
 
