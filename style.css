@@ -1093,5 +1093,17 @@ section{
         width: 30% !important;
     }
 }
+@media (min-width: 768px) and (max-width: 1120px) {
+  .custom-card-container {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+}
+
+@media (min-width: 1121px) {
+  .custom-card-container {
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+  }
+}
+
 
 
