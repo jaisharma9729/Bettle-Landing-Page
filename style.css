@@ -493,7 +493,7 @@ section .home-content {
     font-size: 30px;
     color: #fff;
     line-height: 45px;
-    width: 85%;
+    width: 80%;
     text-transform: capitalize;
 }
 .container-banner .slider-container .slidey .cantent p{
@@ -667,6 +667,7 @@ span.spanmoniter {
   section.Calculator {
     display: flex;
     gap: 180px;
+    padding: 50px 3% 40px;
 }
 .left-calculator h1{
     font-size: 28px;
@@ -711,6 +712,9 @@ button.accordion-button {
 
 
 /* blogs section  */
+section.blog {
+  padding: 50px 3% 40px;
+}
 
 .tab {
     overflow: hidden;
@@ -850,15 +854,20 @@ button.accordion-button {
   }
 
 /* footer css */
-
-section{
+/* 
+ section{
     padding: 80px 7% 70px;
+}  */
+footer{
+  background: #120920;
+
 }
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
-    background: #120920;
-   
+   width: 90%;
+   margin: 0 auto;
+   padding: 40px 0;
 }
 .footer-content {
     position: relative; 
@@ -921,18 +930,23 @@ section{
 
 
 @media  (max-width:1690px){
-    section{
+    /* section{
         padding: 50px 3% 40px;
-    }
+    } */
     
 }
 @media (max-width: 1120px){
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-        grid-gap: 2.5rem;
-       
-    }
+  footer{
+    background: #120920;
+  
+  }
+  .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+     width: 90%;
+     margin: 0 auto;
+     padding: 40px 0;
+  }
     .footer-content p {
         color: #fff;
         font-size: 16px;
@@ -1094,16 +1108,16 @@ section{
     }
 }
 @media (min-width: 768px) and (max-width: 1120px) {
-  .custom-card-container {
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    .custom-card-container {
+      grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
   }
-}
-
-@media (min-width: 1121px) {
-  .custom-card-container {
-    grid-template-columns: repeat(3, minmax(150px, 1fr));
+  
+  @media (min-width: 1121px) {
+    .custom-card-container {
+      grid-template-columns: repeat(3, minmax(150px, 1fr));
+    }
   }
-}
-
+  
 
 
